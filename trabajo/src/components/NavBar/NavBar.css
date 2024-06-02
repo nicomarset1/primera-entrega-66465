@@ -9,12 +9,12 @@
 }
 
 .navbar{
-    border-bottom: 10px solid #FFFD11;
+    border-bottom: 10px solid #F88E24;
     padding: 0;
 }
 
 .container-fluid, .dropdown-menu{
-    background-color: black;
+    background-color: #000C4F;
 }
 
 .nav-item{
@@ -26,7 +26,7 @@
 }
 
 .nav-link:hover{
-    color: #FFFD11;
+    color: #F88E24;
     text-decoration: underline;
     transform: scale(1.15);
     transition: .3s ease-in-out;

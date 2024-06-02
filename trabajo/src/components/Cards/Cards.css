@@ -5,13 +5,14 @@
     justify-content: center;
     align-items: center;
     width: 28vh;
-    border: 1px solid #FFFD11;
+    background-color: white;
+    border: 1px solid #000C4F;
     border-radius: 25px;
 }
 
 .card-title{
     margin: 10px 0;
-    color: #FFFD11;
+    color: #000C4F;
 }
 
 .card-img{
@@ -29,14 +30,14 @@
 
 .card-button{
     margin-bottom: 30px;
-    background-color: black;
-    border: #FFFD11 1px solid;
+    color: #000C4F;
+    background-color: white;
+    border: #000C4F 1px solid;
     padding: 7px;
     border-radius: 50px;
+    transition: .5s;
 }
 
 .card-button:hover{
-    background-color: #FFFD11;
-    color: black;
-    transition: .5s;
+    background-color: rgb(229, 228, 228)
 }
